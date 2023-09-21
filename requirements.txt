@@ -1,5 +1,5 @@
 pandas==3.9.0
-r-base64==2.0
+base64==2.0
 base64==1.0.0
 matplotlib==3.8.0
 yfinance==0.2.28
