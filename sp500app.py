@@ -62,7 +62,7 @@ st.sidebar.header('User Input Features')
 
 # Web scraping of S&P 500 data
 #
-@st.cache_data
+@st.cache
 def load_data():
     url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
     html = pd.read_html(url, header = 0)
