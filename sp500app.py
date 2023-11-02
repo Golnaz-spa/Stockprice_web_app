@@ -20,7 +20,7 @@ tickerSymbol = '^GSPC'
 #get data on this ticker
 tickerData = yf.Ticker(tickerSymbol)
 #get the historical prices for this ticker
-tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2023-9-31')
+tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2023-5-31')
 # Open	High	Low	Close	Volume	Dividends	Stock Splits
 
 tickerDf = tickerDf.drop(['Dividends', 'Stock Splits'], axis=1)
