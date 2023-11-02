@@ -1,6 +1,5 @@
 # S&P 500 Stock Price Visualization Web Application
 
-![Web App Screenshot](web_app_screenshot.png)
 ## About
 
 Welcome to the S&P 500 Stock Price Visualization Web Application. This web application provides data and tools to visualize the volume and closing prices of S&P 500 stocks, access historical data, and categorize and display all the sectors within the S&P 500 companies, along with corresponding visual representations.
@@ -10,6 +9,8 @@ Welcome to the S&P 500 Stock Price Visualization Web Application. This web appli
 - Visualize volume and closing prices of S&P 500 stocks.
 - Access historical data for S&P 500 companies.
 - Categorize and display all the sectors within the S&P 500, accompanied by visual representations.
+- Select a specific sector to view the list of S&P 500 companies in that sector.
+
 
 ## Web App Link
 
